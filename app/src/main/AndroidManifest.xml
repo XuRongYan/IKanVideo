@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ikanvideo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        tools:replace="label,allowBackup"
+        android:label="爱看"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".login.LoginActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <activity
+            android:name=".main.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="爱看"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".classification.ClassificationActivity" />
+        <activity android:name=".register.RegisterActivity" />
+        <activity android:name=".guessYouLike.GuessYouLikeActivity" />
+        <activity android:name=".hotPlay.HotPlayActivity" />
+        <activity android:name=".rank.RankActivity" />
+
+        <activity
+            android:name=".video.VideoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".search.SearchActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+
+        <activity android:name=".watchhistory.WatchHistoryActivity" />
+        <activity android:name=".mycollection.MyCollectionActivity" />
+        <activity android:name=".download.DownloadActivity" />
+        <activity
+            android:name=".advertisement.AdvertisementActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".setting.SettingActivity" />
+        <activity android:name=".forgetpsw.ForgetPswActivity" />
+        <activity android:name=".fulluserinfo.FullUserInfoActivity"></activity>
+    </application>
+
+</manifest>

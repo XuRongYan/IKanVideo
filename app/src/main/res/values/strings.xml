@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">AiKanVideo</string>
+    <string name="username">用户名</string>
+    <string name="psw">密码</string>
+    <string name="forget_psw">忘记密码？</string>
+    <string name="register">点击注册</string>
+    <string name="login">登  录</string>
+    <string name="text_one_more_click">再按一次退出</string>
+    <string name="string_username_required">用户名不得为空</string>
+    <string name="string_invalid_username">用户名不合法</string>
+    <string name="string_invalid_psw">密码不合法</string>
+    <string name="string_psw_required">密码不得为空</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_main">首页</string>
+    <string name="string_search">Search</string>
+    <string name="string_movie">电影</string>
+    <string name="string_classification">分类</string>
+    <string name="string_news">新闻</string>
+    <string name="string_variety">综艺</string>
+    <string name="string_teleplay">电视剧</string>
+    <string name="history">观看历史</string>
+    <string name="my_collection">我的收藏</string>
+    <string name="download">离线中心</string>
+    <string name="setting">设置</string>
+    <string name="string_register">注册</string>
+    <string name="string_please_input_phone">请输入手机号</string>
+    <string name="string_please_input_psw">请输入密码</string>
+    <string name="string_psw_confirm">请再次输入密码</string>
+    <string name="string_verification_code">验证码</string>
+    <string name="string_get_verification_code">获取验证码</string>
+    <string name="string_verification_already_send">验证码已发送</string>
+    <string name="string_verification_fail">验证码发送失败</string>
+    <string name="string_verification_required">验证码不得为空</string>
+    <string name="string_different_psw">密码不一致</string>
+    <string name="string_login_register">登录/注册</string>
+    <string name="string_guess_you_like">猜你喜欢</string>
+    <string name="string_three_month_hot_play">三月热播</string>
+    <string name="string_rank">排行榜</string>
+    <string name="load_more">加载更多...</string>
+    <string name="no_more">没有更多了</string>
+    <string name="search_cn">搜索</string>
+    <string name="ikan_search">ikan搜索</string>
+    <string name="danmu">弹幕</string>
+    <string name="user_comment">用户评论</string>
+    <string name="login_first">请先登录</string>
+    <string name="watch_history">观看历史</string>
+    <string name="download_center">离线中心</string>
+    <string name="add_collection_success">添加收藏成功</string>
+    <string name="choose_index">选集</string>
+    <string name="no_plots">该视频没有编辑看点</string>
+    <string name="why_skip">为什么要跳过这些广告？</string>
+    <string name="adv_too_long">广告时间太长了</string>
+    <string name="adv_too_boring">广告太无聊了</string>
+    <string name="not_accept_recommend">不接受安利</string>
+    <string name="like_success">点赞成功</string>
+    <string name="have_been_like">您已经点过赞</string>
+    <string name="send_danma">发射弹幕</string>
+    <string name="dont_like">推荐商品不喜欢</string>
+    <string name="design_dont_like">广告设计不喜欢</string>
+    <string name="video_hanve_been_collected">您已经收藏过该视频了</string>
+    <string name="system_update">系统更新</string>
+    <string name="about_us">关于我们</string>
+    <string name="submit">提交</string>
+    <string name="psw_update_success">密码修改成功</string>
+    <string name="not_teleplay">该视频不是剧集</string>
+    <string name="add_preference_success">添加个人喜好成功</string>
+    <string name="add_fail">添加失败</string>
+    <string name="full_info_success">完善信息成功</string>
+    <string name="sunmit_fail">提交失败</string>
+
+
+</resources>

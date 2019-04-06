@@ -1,0 +1,1 @@
+include ':app', ':commondevlib', ':vitamio', ':imagelib', ':rongyanLibrary', ':magicindicator'

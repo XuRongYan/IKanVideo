@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorTransparentGray">
+
+    <EditText
+        android:id="@+id/pop_edit_content"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/coner_transparent_3dp"
+        android:padding="8dp"
+        android:hint="发表评论"
+        android:gravity="top|start"
+        android:textColor="@color/colorLightGray"
+        android:textColorHint="@color/colorLightGray"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/pop_send_comments"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/coner_transparent_3dp"
+        android:text="发表"
+        android:textColor="@color/colorLightGray"
+        android:layout_gravity="end"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/pop_recycler_comments"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

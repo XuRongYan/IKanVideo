@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorTransparentGray">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/item_comments_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="zhao"
+            android:padding="8dp"
+            android:textSize="@dimen/sp_14"/>
+
+        <TextView
+            android:id="@+id/item_comments_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:text="2017-7-8"
+            android:gravity="end"
+            android:padding="8dp"
+            android:textSize="@dimen/sp_14"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_comments_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:textSize="@dimen/sp_14"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:text="666666666666666666666666666666666666666666666666666666666666666666666666666666"/>
+
+
+
+</LinearLayout>
